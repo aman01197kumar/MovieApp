@@ -1,0 +1,45 @@
+.heading{
+    text-align: center;
+    color: white;
+    background-color: rgb(63, 71, 71);
+}
+.body{
+    background-color: rgb(60, 53, 66);
+    margin: 0;
+    width: 100%;
+}
+.img{
+    border-radius: 12px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color: white;
+    font-weight: bold;
+    /* width: 50%; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap: wrap;
+}
+.sub-heading{
+    text-decoration: underline;
+}
+.desc-content{
+    width: 50%;
+}
+.book-button{
+    margin-top: 25%;
+    width: 17rem;
+    height: 4rem;
+    background: red;
+    border: none;
+    color: wheat;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    border-radius: 37px;
+
+}
+.img-content{
+    margin-bottom: 2rem;
+}

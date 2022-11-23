@@ -1,0 +1,48 @@
+.App{
+    background-color: rgb(78, 64, 64);
+}
+.screen{
+    width: 75%;
+    height: 3rem;
+    background-color: rgb(206, 183, 183);
+    margin: 0 auto 0 auto;
+    /* border-bottom-width: 3rem; */
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+    margin-top: 2rem;
+    box-shadow: 1px 15px 20px #b9b9cf;
+}
+.container{
+    flex:30%;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+/* .seat{
+    background: transparent;
+    border: 1px solid black;
+    height: 2rem;
+    width: 5%;
+    margin-top: 2px;
+    text-align: center;
+    border-top-right-radius:20px ;
+    border-top-left-radius:20px ;
+    background-color: wheat;
+    cursor: pointer;
+} */
+.seat-booking{
+    display: flex;
+    /* width: fit-content; */
+    /* display: grid; */
+    grid-template-columns: auto auto auto;
+    /* row-gap: 153rem; */
+    /* column-gap: 15rem; */
+    justify-content: center;
+    margin: 10rem 10rem 0 10rem;
+}
+.seat{
+    cursor: pointer;
+}
+
+

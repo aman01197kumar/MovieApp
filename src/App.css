@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+/* .cards{
+    height: 11rem;
+} */
