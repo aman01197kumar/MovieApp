@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-// import "../Seats.css";
 import { Seatbooking } from "../screens/Seatbooking";
 import "../screens/Seatbooking.css";
 

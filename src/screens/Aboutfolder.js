@@ -1,6 +1,5 @@
 import React from "react";
 import { About } from "../components/About";
-import { MovieCard } from "../components/MovieCard";
 import { MovieData } from "../utility/MovieData";
 
 export const Aboutfolder = () => {

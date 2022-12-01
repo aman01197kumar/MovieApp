@@ -1,10 +1,9 @@
-.container{
+.app-items{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
-
+    background-image: url("../src/utility/bg\ image.webp"); 
+    position: absolute;
+    left: 0;
+    top: 0;
 }
-/* .cards{
-    height: 11rem;
-} */

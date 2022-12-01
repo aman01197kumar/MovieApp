@@ -24,7 +24,7 @@ export const Seatbooking = (props) => {
     }
   };
 
-  const stars = Array(64).fill(0);
+  const stars = Array(81).fill(0);
   const rate = props.price * count;
 
   return (
@@ -35,7 +35,7 @@ export const Seatbooking = (props) => {
             <>
               <FaChair
                 key={index}
-                size={24}
+                size={36}
                 onClick={() => handleClick(index, array1[index])}
                 color={array1[index] === true ? colors.orange : colors.grey}
               />

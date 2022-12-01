@@ -1,27 +1,15 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+import "../screens/Movielist.css";
 
 export const MovieCard = (props) => {
-  const history = useHistory();
   return (
     <div className="cards">
-      <div
-        className="card"
-        onClick={(id) => {
-          console.log("here");
-          // history.push("/About");
-          history.push("/About/:id");
-        }}
-      >
-        <img src={props.imgsrc} alt="abc" className="my_img" />
+      <div className="card">
+        <img src={props.imgsrc} className="img-con" />
         <div className="card-info">
-          <h2 className="card-name">
-            {props.my_id}-{props.name} ({props.year})
-          </h2>
-          <ul>
-            <li>Distributor: {props.distributor}</li>
-            <li>Amount: {props.amount}</li>
-          </ul>
+          <h1 className="heading-info">{props.name}</h1>
+          <h3 className="heading-info">{props.distributor}</h3>
+          <h3 className="heading-info">{props.amount}</h3>
         </div>
       </div>
     </div>
